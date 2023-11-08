@@ -12,6 +12,8 @@ def main():
 
 
 
+
+
 # Ex. 3 Answer
 def main():
     userInput = input("Enter list of numbers: ")
@@ -21,6 +23,8 @@ def main():
 
     else:
         print('false')
+
+
 
 # Ex. 4 Answer
 def main():
@@ -53,12 +57,11 @@ def main():
 # Number 7
 def main():
     i = random.randint(0,100)
+    print(i)
     if i < 10:
-        print(i,"You lose" )
-        print() 
+        print("You lose" )
     elif i > 10 and i < 50 :
-        print(i,"Try again")
-        print()
+        print("Try again")
     else:
         print("You Win!!!")
 
